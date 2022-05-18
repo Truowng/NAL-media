@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+}
+
+:root {
+  --light-gray: rgb(194, 194, 194);
+  --gray: rgb(131, 131, 131);
+  --black: #000;
+  --white: #fff;
+  --blue: #2196f3;
+  --teal: #48c0aa;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: var(--black);
+}
+
+html {
+  font-family: sans-serif, "Noto Serif JP";
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.--blue {
+  background-color: #2196f3;
+}
+
+.--purple {
+  background-color: purple;
+}
+
+.--teal {
+  background-color: #55d8c1;
+}
+
+.--beige {
+  background-color: #c4b87e;
+}
+
+.--black {
+  background-color: #000;
+}

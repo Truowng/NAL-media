@@ -1,0 +1,127 @@
+.header-container {
+  display: flex;
+  padding: 5px 0 0 0;
+}
+
+.header-item-left-container {
+  display: flex;
+  border-bottom: solid var(--light-gray) 1px;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.tag-item-left {
+  font-size: 1rem;
+  transition: all ease 0.3s;
+  padding: 12px 6px 8px 0px;
+  color: var(--gray);
+}
+
+.tag-item-left:last-child {
+  padding-right: 0;
+}
+
+.tag-item-left:hover {
+  color: var(--black);
+  transition: all ease 0.3s;
+}
+
+.tag-item-left-icon {
+  font-size: 1rem;
+  margin-right: 2px;
+}
+
+.header-social {
+  margin-top: 18px;
+}
+
+.header-social-icon {
+  margin-right: 20px;
+  font-size: 1.4rem;
+  transition: all ease 0.3s;
+}
+
+.header-social-icon:first-child:hover {
+  color: #4267b2;
+  transform: scale(2);
+}
+.header-social-icon:last-child:hover {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  transform: scale(2);
+}
+
+.header-top-bar-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tag-item-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tag-item-right-icon {
+  font-size: 1.3rem;
+  padding: 10px 10px 12px 0;
+  color: var(--gray);
+  transition: ease all 0.3s;
+}
+
+.tag-item-right-icon:hover {
+  color: var(--black);
+  cursor: pointer;
+}
+
+.header-top-bar-right-container {
+  display: flex;
+}
+
+.header-logo-container {
+  margin-top: 41px;
+}
+
+.header-logo {
+  font-size: 4.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-logo-content {
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--light-gray);
+  margin-bottom: 12px;
+}
+
+.header-bottom-bar-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: solid black 1px;
+  border-bottom: solid black 2px;
+}
+
+.header-menu-bar {
+  font-size: 1.4rem;
+  padding: 20px 25px;
+  font-weight: bold;
+  transition: all ease 0.3s;
+}
+
+.header-menu-bar:hover {
+  background-color: rgb(212, 212, 212);
+}
