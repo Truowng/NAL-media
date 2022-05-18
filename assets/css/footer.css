@@ -1,0 +1,28 @@
+.footer-content-container {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--gray);
+  margin-top: 23px;
+}
+
+.footer-content-title {
+  font-weight: bold;
+}
+
+.footer-content {
+}
+
+.footer-content-address {
+}
+
+.footer-content-phone {
+}
+
+.footer-content-email {
+}
+
+.footer-container {
+  border-top: 2px solid black;
+  padding: 10px 0;
+  margin-top: 50px;
+}
